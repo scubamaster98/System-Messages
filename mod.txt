@@ -1,0 +1,12 @@
+{
+	"name" : "System Messages",
+	"description" : "Mod that adds join messages and all that stuff",
+	"author" : "s",
+	"color" : "1 1 0",
+	"version": "1.0",
+	"priority" : "200",
+		"hooks": [
+		{ "hook_id": "lib/network/networkgame", "script_path": "networkgame.lua" },
+		{ "hook_id": "lib/managers/missionassetsmanager", "script_path": "missionassetsmanager.lua" }
+	]
+}
