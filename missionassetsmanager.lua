@@ -10,7 +10,7 @@ if string.lower(RequiredScript) == "lib/managers/missionassetsmanager" then
 			text = "Unlocked asset: " .. text --experimental
 		else
 			local peer = Network:is_server() and session:local_peer() or session:server_peer() or session:local_peer()
-			text = peer:name() .. " unlocked asset: " .. text
+			text = peer:name() .. " unlocked asset: " .. text .. "."
 		end
 		managers.chat:feed_system_message(ChatManager.GAME, text)
 	end
