@@ -1,4 +1,5 @@
-this mod just adds the system messages for versions that dont have them (before u22) which means u'll have join, kick leaving and losing connection messages
-it also includes asset unlock messages
+this mod adds player join/left/dc/kick messages and also asset unlock messages, on versions where its available for clients too it just says what asset got unlock and not who unlocked it (currently untested)
+
+this is for release-u21
 
 u'll need superblt-cus installed

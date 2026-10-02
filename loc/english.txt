@@ -1,0 +1,8 @@
+{
+	"menu_chat_peer_added": "$name is joining.",
+	"menu_chat_peer_left": "$name left.",
+	"menu_chat_peer_kicked": "$name has been kicked.",
+	"menu_chat_peer_lost": "$name has been lost.",
+	"menu_chat_peer_unlocked_asset": "$name unlocked asset: $asset;.",
+	"menu_chat_unlocked_asset": "Unlocked asset: $asset;."
+}
